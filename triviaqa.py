@@ -86,11 +86,11 @@ if __name__ == "__main__":
         description="Run kv-press summarisation on each row of an input CSV and save results to another CSV"
     )
     parser.add_argument(
-        "--input-csv", type=str, default="samsum.csv",
+        "--input-csv", type=str, default="triviaqa.csv",
         help="Path to the input CSV file"
     )
     parser.add_argument(
-        "--output-csv", type=str, default="results.csv",
+        "--output-csv", type=str, default="triviaqa/results.csv",
         help="Path to the output CSV file"
     )
     parser.add_argument(
