@@ -1,0 +1,15 @@
+# 忽略 Python 自动生成的缓存目录
+__pycache__/
+**/__pycache__/
+
+# 忽略所有 .pyc, .pyo, .pyd 等字节码文件
+*.py[cod]
+*.$py.class
+
+# （可选）如果有虚拟环境目录，也可以一并忽略，比如 venv 或 .venv
+venv/
+.venv/
+
+# （可选）如果不想上传 IDE 配置或其他临时文件，也可以在这里添加
+.idea/
+.vscode/
