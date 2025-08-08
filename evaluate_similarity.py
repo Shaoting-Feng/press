@@ -3,10 +3,10 @@ from our_metrics import evaluate_answer, f1_score, codebleu_score
 import os
 import argparse
 
-INPUT02 = '/home/ubuntu/st-prodstack-v/press/lcc_e/results_rate_0.628571429.csv'
-INPUT03 = '/home/ubuntu/st-prodstack-v/press/lcc_e/results_rate_0.514285714.csv'
-INPUT06 = '/home/ubuntu/st-prodstack-v/press/lcc_e/results_rate_0.271428571.csv'
-INPUT0  = '/home/ubuntu/st-prodstack-v/LMCache/serve/results/Jun_19_1_coding/prefill/0.csv'
+INPUT02 = '/home/ubuntu/st-prodstack-v/press/qmsum/results_rate_0.628571429.csv'
+INPUT03 = '/home/ubuntu/st-prodstack-v/press/qmsum/results_rate_0.514285714.csv'
+INPUT06 = '/home/ubuntu/st-prodstack-v/press/qmsum/results_rate_0.271428571.csv'
+INPUT0  = '/home/ubuntu/st-prodstack-v/LMCache/serve/results/Jun_4_2_sum/prefill/0.csv'
 
 def main():
     parser = argparse.ArgumentParser(

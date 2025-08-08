@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Path to your input CSV:
-INPUT_CSV="lcc_e.csv"
+INPUT_CSV="qmsum.csv"
 
 # Derive the prefix (everything before “.csv”):
 INPUT_PREFIX="${INPUT_CSV%.csv}"
